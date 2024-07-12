@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <AppBar position="fixed"  sx={{background:"#ffcdd2"}}>
             <Container maxWidth="xl">
-                <Toolbar disableGutters sx={{gap:{sm:"60px"}}}>
+                <Toolbar disableGutters sx={{gap:{md:"60px"}}}>
                     <Typography
                         variant="h6"
                         noWrap
